@@ -55,6 +55,7 @@
 #nervous {
   width: 15vw;
   height: 14vh;
+  opacity: 0;
 }
 /* BODY */
 body {
@@ -289,5 +290,8 @@ header h1 {
 
   .btn h1 {
     font-size: 2vh;
+  }
+  #nervous{
+    opacity: 0;
   }
 }
