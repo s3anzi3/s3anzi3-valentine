@@ -46,6 +46,7 @@
 .gifs-container {
   position: absolute;
   max-width: 85vw;
+  z-index: 3;
   top: 7vh;
   left: 50%;
   transform: translate(-50%);
@@ -78,12 +79,6 @@ header {
   left: 15vw;
   right: 15vw;
   height: 9.5vh;
-  background: var(--clr-primary-5);
-  box-shadow: 0 0 11px rgba(33, 33, 33, 0.7);
-  border-top-left-radius: 10%;
-  border-top-right-radius: 10%;
-  border-bottom-left-radius: 10%;
-  border-bottom-right-radius: 10%;
   align-items: center;
   justify-content: center;
 }
@@ -268,6 +263,12 @@ header h1 {
     height: 9.5vh;
     left: 30vw;
     right: 30vw;
+    background: var(--clr-primary-5);
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.7);
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
     display: flex;
     text-align: center;
     justify-content: center;
